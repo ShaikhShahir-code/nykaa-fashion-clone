@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.banner-1{
+    height: 32px;
+    background-color: #111314;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 48px;
+    text-decoration: none;
+}
+
+.banner-1 p{
+    color: #ACADAD;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 10px;
+}
+.banner-1 b{
+    color: #ACADAD;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: none;
+    margin-left: 24px;
+}
+.banner-2{
+    height: 64px;
+    background-color: #ffffff;
+    padding: 0px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-right: 20px;
+}
+.banner-2 a{
+    padding: 0px 10px;
+    font-size: 16px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-left: 20px;
+}
+a:hover{
+    border-bottom: 2px solid rgb(166, 28, 84);
+    color:rgb(166, 28, 84);
+}
+.banner-2 input{
+    padding-left: 15px;
+    display: flex;
+    flex-grow: 0.3;
+    height: 60%;
+    background-color: #F3F4F5;
+    border: none;
+    font-size: 14px;
+    box-shadow: 2px 2px 1px #ACADAD;
+}
+.banner-2 i {
+    padding-left: 10px;
+    font-size: larger;
+}
+.banner-2 p{
+    font-size: larger;
+    margin-left: 20px;
+    padding: 0px 20px;
+}
+.banner-3{
+    background-color: #ffffff;
+    padding: 8px 48px 8px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    /*  */
+}
+.bannerimg1 img{
+    margin-top: 90px;
+}
+
+.banner-3 p{
+    display: inline;
+    color: dimgray;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.banner-3 :hover{
+    color: black;
+}
+.productsfind{
+    padding: 0px 0px 0px 50px;
+    
+}
+.productsfind img{
+    margin: 0px 3px 0px 3px;
+}
+.hero-brands{
+    padding: 0px 50px;
+}
+.topbrands h5{
+    padding-top: 32px;
+    color: #5c6873;
+    font-size: 14px;
+}
+.topbrands h2{
+    padding-top: 16px;
+    color: #001325;
+    font-size: 24px;
+}
+.branddeals{
+    padding: 0px 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+.brandsimg{
+    padding: 24px 0px 14px 0px;
+}
+.offer{
+    color: #001325;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0px 0px 50px;
+}
+.contentbanner{
+    height: 572.3px;
+    padding: 0px 20px;
+    background-color: #310914;
+    font-size: 0px;
+}
+.rightimg{
+    display: inline;
+    padding: 20px 0px 0px 40px;
+}
+.rightbottomimg{
+    display: inline;
+    padding: 20px 0px 0px 40px;
+}
+.contentbanner2{
+    height: 569.8px;
+    padding: 0px 50px;
+    background: rgb(26, 5, 5);
+    font-size: 0px;
+}
+.rightimg2{
+    display: inline;
+    padding: 20px 0px 0px 0px;
+}
+.rightbottomimg2{
+    display: inline;
+    padding: 20px 0px 0px 0px;
+}
+
+.branddeals1{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.offer1{
+    color: #001325;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0px 0px 30px;
+}
+.brandsimg1{
+    padding: 24px 0px 14px 0px;
+}
+
+/* footer */
+.box-1{
+    height: 120px;
+    margin-top: 24px;
+    padding: 24px 0px 20px 0px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Downloadlinks{
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+.Downloadlinks h3{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    line-height: 12px;
+    color: white;
+}
+.Downloadlinks img{
+    margin-right: 10px;
+}
+.contantandhel{
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+.contantandhel h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 14px;
+    line-height: 12px;
+}
+.contantandhel h5{
+    color: white;margin-bottom: 5px;
+}
+.contantandhel p{
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.lastbox{
+    height: 45px;
+    background-color: #A61C54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastbox p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
